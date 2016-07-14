@@ -6,6 +6,7 @@ public class Conecta {
 	public static void main(String[] args) {
 		
 		Session session = null;
+		System.out.println("Veja o git no Eclipse com EGit");
 		
 		try {
 			session = HibernateUtil.getSession().openSession();
